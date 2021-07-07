@@ -1,0 +1,126 @@
+:root {
+  --dark-grey : #0D0D11;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #19192D;
+}
+#root {
+  background-image: url("assets/image/background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;;
+}
+.appScreen {
+  color: white;
+  width: 300px;
+  height: 370px;
+}
+.header {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.closeIcon {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+#backIcon {
+  width: 40px;
+}
+.centerTxt {
+  width: 60%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+.rightTxt {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contentContainer {
+  width: 100%;
+  height: 85%;
+  overflow: hidden;
+}
+#allIcons {
+  width: 100%;
+  height: 98%;
+  overflow-y: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+#allIcons::-webkit-scrollbar {
+  display: none;
+}
+.menuItem {
+  background-color: var(--dark-grey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.menuIcon {
+  width: 60px;
+}
+.pageCont {
+  width: 100%;
+  height: 83%;
+}
+.containerClock {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clockCircle {
+  width: 200px;
+  height: 200px;
+  background-image: url(assets/image/clockcircle.svg);
+  background-position: center;
+  background-size: contain;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clockData {
+  font-size: 60px;
+  font-weight: 500;
+}
+.containerFooter {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+}
